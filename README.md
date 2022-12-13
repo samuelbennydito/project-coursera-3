@@ -1,6 +1,6 @@
 # Backgorund
 
-Explore millions of New York City yellow taxi cab trips available in a BigQuery public dataset. Create a machine learning model inside of BigQuery to predict the fare of the cab ride given your model inputs. Lastly evaluate the performance of your model and make predictions.
+Explore millions of New York City yellow taxi cab trips available in a BigQuery public dataset. Create a machine learning model inside of BigQuery to predict the fare of the cab ride given model inputs. Lastly evaluate the performance of model and make predictions.
 
 Objectives
 
