@@ -1,3 +1,5 @@
+# Explore NYC taxi cab data
+
 # Question: How many trips did Yellow taxis take each month in 2015?
 
 #standardSQL
@@ -34,7 +36,7 @@ GROUP BY
 ORDER BY
   1
   
-# Select features and create your training dataset
+# Identify an objective
 
 #standardSQL
 WITH params AS (
@@ -64,6 +66,8 @@ WITH params AS (
   FROM taxitrips
   
   # Create a BigQuery dataset to store models, type taxi for Dataset ID
+  
+  # Select a BQML model type and specify options
   
   # Question: Which model type should you choose? Since you are predicting a numeric value (cab fare) you want to use linear regression.
   
